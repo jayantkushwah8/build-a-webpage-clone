@@ -1,0 +1,99 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 3vw;
+}
+.navbar ul{
+    display: flex;
+    
+}
+.navbar {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+.navbar ul li{
+    margin: 10px;
+}
+.services{
+    position: absolute;
+    right: 5vw;
+    display: flex;
+}
+.services button{
+    background-color: rgb(222, 33, 175);
+    border: none;
+    color: white;
+    border-radius: 0.3rem;
+    margin-left: 9px;
+}
+.logo{
+    position: absolute;
+    left: 3vw;
+}
+.hero-image{
+    position: absolute;
+    right: 0;
+    top: 5vh;
+}
+.car-loan{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 47.5%;
+    background-color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5rem;
+    box-shadow: 2px 2px 15px ;
+    padding: 7px;
+}
+.home-loan{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 9vw;
+    top: 30vh;
+    background-color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5rem;
+    box-shadow: 2px 2px 15px ;
+    padding: 7px;
+}
+
+.main-content h1{
+    font-size: 5rem;
+    margin-top: 8%;
+}
+.main-content p{
+    font-size: larger;
+}
+.main-content .apply{
+    background-color: rgb(222, 33, 175);
+    border: none;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+.main-content .loan{
+    background-color: white;
+    border: 1px solid gray;
+    color: rgb(222, 33, 175);
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+.footer{
+    display: flex;
+    margin-top: 10vh;
+    height: 4vh;
+}
+.footer img{
+    margin: 4px;
+}
